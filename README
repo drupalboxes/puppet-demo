@@ -1,0 +1,5 @@
+Drupalboxes Puppet modules demo
+===============================
+
+Demonstrates a simple set of manifests to include the Drupalboxes
+Puppet modules.
