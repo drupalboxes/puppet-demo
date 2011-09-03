@@ -11,6 +11,9 @@ class webserver::custom_php {
   include php::apc
   php::extension { 'mcrypt': }
   php::extension { 'mysql': }
+  php::extension { 'gd': }
+  php::extension { 'xml': }
+  php::extension { 'mbstring': }
   php::extension { 'pecl-memcache': }
 }
 
